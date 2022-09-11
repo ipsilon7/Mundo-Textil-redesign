@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.heroContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(166, 200, 252);
+}
