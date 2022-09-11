@@ -9,6 +9,7 @@ a{
 .navContainer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .heroContainer{
     height: 100vh;
@@ -16,4 +17,11 @@ a{
     justify-content: space-around;
     align-items: center;
     background-color: rgb(166, 200, 252);
+}
+.empresaContainer{
+    display: flex;
+    background-color: cadetblue;
+}
+.tarjetaContainer{
+    border-style: solid;
 }
