@@ -19,9 +19,38 @@ a{
     background-color: rgb(166, 200, 252);
 }
 .empresaContainer{
-    display: flex;
-    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 4fr 2fr 4fr;
+    column-gap: 1%;
+    padding: 1%;
+    background-color: aquamarine;
 }
 .tarjetaContainer{
     border-style: solid;
+    background-color: blanchedalmond;
+}
+.imgEmpresaContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 10rem;
+    background-color: #303030;
+}
+.tycContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #353535;
+}
+.fontColor{
+    color: white;
+}
+h4{
+    font-weight: bolder;
+}
+h6{
+    font-weight: lighter;
+    font-size: 1rem;
 }
