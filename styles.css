@@ -17,9 +17,7 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url("imagenes/hilado\ fondo\ hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #0096c7;
 }
 .empresaContainer{
     display: grid;
@@ -43,12 +41,12 @@ a{
     display: flex;
     justify-content: space-around;
     padding: 2rem 10rem;
-    background-color: #1d82c0;
+    background-color: #0096c7;
 }
 .tycContainer{
     display: flex;
     justify-content: center;
-    background-color: #1d82c0;
+    background-color: #0096c7;
 }
 .fontColor{
     color: white;
