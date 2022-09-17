@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a{
     text-decoration: none;
@@ -12,37 +13,42 @@ a{
     align-items: center;
 }
 .heroContainer{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(166, 200, 252);
+    background-image: url("imagenes/hilado\ fondo\ hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .empresaContainer{
     display: grid;
-    grid-template-columns: 4fr 2fr 4fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1%;
-    padding: 1%;
-    background-color: aquamarine;
+    padding: 10rem 20% 5rem 20%;
+    background: white;
 }
 .tarjetaContainer{
-    border-style: solid;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 5px;
     background-color: blanchedalmond;
 }
 .imgEmpresaContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 5rem 20% 10rem 20%;
 }
 .footerContainer{
     display: flex;
     justify-content: space-around;
     padding: 2rem 10rem;
-    background-color: #303030;
+    background-color: #1d82c0;
 }
 .tycContainer{
     display: flex;
     justify-content: center;
-    background-color: #353535;
+    background-color: #1d82c0;
 }
 .fontColor{
     color: white;
