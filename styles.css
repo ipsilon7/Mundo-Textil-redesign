@@ -40,7 +40,6 @@ a{
 }
 footer{
     height: 350px;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='350' preserveAspectRatio='none' viewBox='0 0 1920 350'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1099%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c44 C 76.8%2c60 230.4%2c131.4 384%2c124 C 537.6%2c116.6 614.4%2c10.6 768%2c7 C 921.6%2c3.4 998.4%2c92.4 1152%2c106 C 1305.6%2c119.6 1382.4%2c77.4 1536%2c75 C 1689.6%2c72.6 1843.2%2c90.2 1920%2c94L1920 350L0 350z' fill='rgba(34%2c 100%2c 171%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c311 C 96%2c294 288%2c226.8 480%2c226 C 672%2c225.2 768%2c306 960%2c307 C 1152%2c308 1248%2c225 1440%2c231 C 1632%2c237 1824%2c315.8 1920%2c337L1920 350L0 350z' fill='rgba(24%2c 74%2c 126%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1099'%3e%3crect width='1920' height='350' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 .footerContainer{
     display: grid;
@@ -53,7 +52,7 @@ footer{
     justify-content: center;
 }
 .fontColor{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 h4{
     font-weight: bolder;
