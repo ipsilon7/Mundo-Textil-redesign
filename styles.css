@@ -13,11 +13,23 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.navLogo{
+    max-height: 100px;
+    max-width: 250px;
+    padding-left: 1rem;
+}
 .heroContainer{
     height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: linear-gradient( 115deg, rgba(55, 105, 241, 0.8), rgba(14, 105, 165, 0.7) ), url("imagenes/fabrica.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heroText{
+    font-size: 3rem;
 }
 .empresaContainer{
     display: grid;
@@ -26,12 +38,12 @@ a{
     padding: 10rem 10% 5rem 10%;
 }
 .tarjetaContainer{
-    padding: 15px;
-    margin: 15px;
-    border-radius: 30px;
-    background: #c2e3e9;
-    box-shadow: -25px 25px 64px #97b1b6,
-                25px -25px 64px #edffff;
+    padding: 3rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: -25px 25px 64px #f0f0f0,
+                25px -25px 64px #f0f0f0;
 }
 .imgEmpresaContainer{
     display: flex;
