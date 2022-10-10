@@ -21,50 +21,81 @@ a{
 .heroContainer{
     height: 90vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
-    background-image: linear-gradient( 115deg, rgba(55, 105, 241, 0.8), rgba(14, 105, 165, 0.7) ), url("imagenes/fabrica.jpg");
+    background-image: linear-gradient( 115deg, rgba(4, 60, 214, 0.8), rgba(14, 105, 165, 0.7) ), url("imagenes/fabrica.jpg");
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .heroText{
-    font-size: 3rem;
+    font-size: 1.8rem;
+    padding-left: 5rem;
+    width: 40%;
+}
+.heroText h2{
+    font-size: 1.8rem;
+    padding-top: 1rem;
 }
 .empresaContainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1%;
-    padding: 10rem 10% 5rem 10%;
+    padding: 10rem 20% 10rem 20%;
 }
 .tarjetaContainer{
-    padding: 3rem;
+    padding: 2rem;
     margin: 0.5rem;
     border-radius: 5px;
     background: #ffffff;
     box-shadow: -25px 25px 64px #f0f0f0,
                 25px -25px 64px #f0f0f0;
 }
-.imgEmpresaContainer{
-    display: flex;
-    justify-content: space-between;
-    padding: 5rem 20% 10rem 20%;
+.tarjetaContainer h1{
+    color: rgb(7, 101, 224);
+    padding-bottom: 0.8rem;
 }
+.imgEmpresaContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    padding: 0 10% 5rem 10%;
+}
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 3; }
+.div4 { grid-area: 1 / 3 / 3 / 4; }
+
+.imgEmpresaContainer div img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
 footer{
-    height: 350px;
+    min-height: 10vh;
 }
 .footerContainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    padding: 9rem 10% 0 10%;
+    padding: 2rem 10% 2rem 10%;
+    background-color: #F6F6F6;
 }
 .tycContainer{
     display: flex;
     justify-content: center;
+    padding: 1rem 0 1rem 0;
+    background-color: #EFEFEF;
 }
 .fontColor{
     color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+.fontColor h1{
+    color: rgb(7, 101, 224);
 }
 h4{
     font-weight: bolder;
